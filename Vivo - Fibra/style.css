@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+}
+
+img {
+  border: 0;
+  top: -1px;
+  left: -1px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* Container */
+#wrapper {
+  width: 300px;
+  height: 250px;
+  background: #FFFFFF;
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid #e2e2e2;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#wrapper * {
+  position: absolute;
+}
+
+/* Force text render */
+.text {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Loose elements */
+.fibra_mask {
+  width: 0px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.fibra_mask img {
+  left: auto;
+}
+
+#circulo {
+  top: 193px;
+  left: 93px;
+}
